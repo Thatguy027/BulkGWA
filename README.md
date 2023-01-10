@@ -21,3 +21,12 @@
     * input is the output of `process_genotypes_n_counts.R`
     * filters variant sites to only be those with high genotyping rates in the CeNDR population
     * output is the input for `strain_frequency_inference.R`
+
+### How to use
+
+* generate input files:
+ * run `prepare_plink_genotypes.sh`
+ * generate GATK ASER output (not included in repo yet)
+ * run `process_genotypes_n_counts.R`
+ * run `prune_genotypes.R`
+ * run `strain_frequency_inference.R`
