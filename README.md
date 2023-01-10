@@ -25,8 +25,10 @@
 ### How to use
 
 * generate input files:
- * run `prepare_plink_genotypes.sh`
- * generate GATK ASER output (not included in repo yet)
- * run `process_genotypes_n_counts.R`
- * run `prune_genotypes.R`
- * run `strain_frequency_inference.R`
+  * run `prepare_plink_genotypes.sh`
+  * generate GATK ASER output (not included in repo yet)
+* process genotypes
+  * run `process_genotypes_n_counts.R`
+  * run `prune_genotypes.R`
+* strain frequency inference
+  * run `strain_frequency_inference.R`
