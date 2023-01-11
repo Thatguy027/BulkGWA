@@ -15,5 +15,5 @@ plink --allow-extra-chr \
   --set-missing-var-ids @:# \
   --snps-only \
   --chr $chrom \
-  --vcf ../WI.20210121.hard-filter.isotype_with_cM.vcf.gz 
+  --vcf WI.20210121.hard-filter.vcf.gz
 done
